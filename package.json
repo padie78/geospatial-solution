@@ -1,0 +1,10 @@
+{
+  "name": "asset-management-system",
+  "version": "1.0.0",
+  "scripts": {
+    "install-all": "npm install --prefix backend/api && npm install --prefix backend/watcher && npm install --prefix backend/worker && npm install --prefix frontend/app",
+    "fix-permissions": "sudo chown -R $USER:$USER ./data && sudo chmod -R 777 ./data",
+    "docker:up": "npm run fix-permissions && docker compose up --build",
+    "docker:down": "docker compose down"
+  }
+}
