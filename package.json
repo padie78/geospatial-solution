@@ -4,6 +4,7 @@
   "scripts": {
     "install-all": "npm install --prefix backend/api && npm install --prefix backend/watcher && npm install --prefix backend/worker && npm install --prefix frontend/app",
     "fix-permissions": "mkdir -p data/incoming data/processed && chmod -R 777 data",
+    "check-env": "docker --version && docker compose version",
     "docker:up": "npm run fix-permissions && docker compose up --build",
     "docker:down": "docker compose down"
   }
