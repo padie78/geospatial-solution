@@ -26,7 +26,8 @@ The system implements a reliable "Inbox/Outbox" pattern:
 4.  **Indexing:** The processed data is cached in Redis for immediate API availability.
 5.  **Notification:** The API is notified of the new data, making it instantly visible to the Frontend.
 
-<img width="990" height="620" alt="image" src="https://github.com/user-attachments/assets/38ed152e-9352-4750-84f6-2c52fb36ee49" />
+<img width="990" height="620" alt="image" src="https://github.com/user-attachments/assets/bf7ef005-3d35-4bec-a86e-7fafeb47c76c" />
+
 
 ---
 
